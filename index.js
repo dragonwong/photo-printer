@@ -77,7 +77,7 @@ $addNewLine.onclick = function() {
   $ctr.append($button);
 
   $line.append($ctr);
-  $preview.append($line);
+  $preview.prepend($line);
 
   Sortable.create($line, sortableConfig);
 }

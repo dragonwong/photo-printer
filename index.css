@@ -13,6 +13,10 @@ body.print-mode .img-box .size {
   margin: 0 0 10px 0;
 }
 
+body > .ctr {
+  margin: 10px 0;
+}
+
 #preview {
   width: 210mm;
   border: 1px solid black;
@@ -89,26 +93,21 @@ body.print-mode .img-box .size {
 }
 
 /* - style start - */
-.line.style-gap .img-box{
+.line.style-gap .img-box {
   padding: 8px;
-  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
-.line.style-gap .img-box:first-child{
-  margin-left: -1px;
+.line.style-gap .img-box:last-child {
+  margin-right: -1px;
 }
-.line.style-polaroid .img-box{
+.line.style-polaroid .img-box {
   padding: 10px 10px 40px;
-  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
-.line.style-polaroid .img-box:first-child{
-  margin-left: -1px;
+.line.style-polaroid .img-box:last-child {
+  margin-right: -1px;
 }
 /* - style end - */
-
-
-body > .ctr {
-  margin: 10px 0;
-}
 
 @page {
     margin: 0;
